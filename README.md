@@ -8,3 +8,16 @@ O sistema permite:
 - Empréstimo de itens
 - Devolução de itens
 - Listagem de itens cadastrado
+
+
+
+## ▶️ Como executar
+
+1. Clone o repositório:
+git clone https://github.com/seuusuario/biblioteca-poo.git
+
+2. Acesse a pasta:
+cd biblioteca-poo
+
+3. Execute:
+python main.py
