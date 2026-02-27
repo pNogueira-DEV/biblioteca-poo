@@ -21,3 +21,15 @@ cd biblioteca-poo
 
 3. Execute:
 python main.py
+
+
+
+
+## 📌 Funcionalidades implementadas
+
+- Encapsulamento com atributos privados
+- Getters e setters com validação
+- Herança
+- Polimorfismo
+- Organização em múltiplos arquivos
+- Menu interativo no terminal
