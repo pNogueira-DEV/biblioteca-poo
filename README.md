@@ -33,3 +33,11 @@ python main.py
 - Polimorfismo
 - Organização em múltiplos arquivos
 - Menu interativo no terminal
+
+
+## 🧠 Conceitos aplicados
+
+- Encapsulamento
+- Herança
+- Polimorfismo
+- Versionamento com Git
