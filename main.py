@@ -20,7 +20,7 @@ while True:
     opcao = input("Escolha uma opção: ")
 
     if opcao == "1":
-        codigo = input("Código: ")
+        codigo = int(input("Código: "))
         titulo = input("Título: ")
         ano = int(input("Ano: "))
         autor = input("Autor: ")
