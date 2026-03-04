@@ -4,7 +4,7 @@ class ItemBiblioteca:
         self.set_titulo(titulo)
         self.set_ano(ano)
         self.__disponivel = True
-       # Getters
+ 
     def get_codigo(self):
         return self.__codigo
 
@@ -36,7 +36,6 @@ class ItemBiblioteca:
         else:
             raise ValueError("Ano inválido.")
 
-    # Métodos principais
     def emprestar(self):
         if self.__disponivel:
             self.__disponivel = False
@@ -51,7 +50,7 @@ class ItemBiblioteca:
         else:
             print(f"Item '{self.__titulo}' já está disponível.")
 
-    # Método polimórfico (será sobrescrito)
+  
     def exibir_detalhes(self):
         print(f"Código: {self.__codigo} | Título: {self.__titulo} | Ano: {self.__ano}")
 

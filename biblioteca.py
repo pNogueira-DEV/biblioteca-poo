@@ -12,7 +12,8 @@ class Biblioteca:
         if not self.__itens:
             print("Nenhum item cadastrado.")
         for item in self.__itens:
-            item.exibir_detalhes()  # POLIMORFISMO
+            item.exibir_detalhes()  
+            
 
     def buscar_por_codigo(self, codigo):
         for item in self.__itens:

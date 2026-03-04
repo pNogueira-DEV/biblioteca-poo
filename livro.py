@@ -26,7 +26,7 @@ class Livro(ItemBiblioteca):
         else:
             raise ValueError("Número de páginas inválido.")
 
-    # Polimorfismo
+   
     def exibir_detalhes(self):
         status = "Disponível" if self.get_disponivel() else "Emprestado"
         print(f"[Livro] Código: {self.get_codigo()} | Título: {self.get_titulo()} | "
